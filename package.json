@@ -1,0 +1,19 @@
+{
+  "name": "esr-services",
+  "version": "1.0.0",
+  "description": "Web services used with EOSIO Signing Requests",
+  "main": "index.js",
+  "repository": "github.com/digital-scarcity/esr-services.git",
+  "author": "Digital Scarcity",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "eosio-signing-request": "^1.1.3",
+    "express": "^4.17.1",
+    "handlebars": "^4.7.6",
+    "node-fetch": "^2.6.0",
+    "ricardian-template-toolkit": "^0.2.1",
+    "util": "^0.12.2",
+    "zlib": "^1.0.5"
+  }
+}
